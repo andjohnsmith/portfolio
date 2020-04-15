@@ -11,12 +11,15 @@ export default class About extends Component {
           <p>
             I'm a software engineer based in Seattle, WA who loves building
             convenient and streamlined applications that make life just a little
-            bit easier. I enjoy working on the full-stack, and I'm currently
-            looking for an entry-level position!
+            bit easier. I have a Bachelor of Science in computer science which I
+            obtained with honours at the University of Wisconsin–La Crosse after
+            just three years.
           </p>
           <p>
             Some of the technologies I've been working with recently include
-            Java, Spring, JavaScript, React, Node, Express, HTML, and CSS.
+            Java, Spring, JavaScript, React, Node, Express, HTML, and CSS. I
+            enjoy working on both the back-end and front-end, and I'm currently
+            looking for an entry-level position!
           </p>
           <p>
             My time outside of work is usually spent going on hikes with my

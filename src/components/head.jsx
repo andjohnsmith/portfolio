@@ -21,7 +21,7 @@ export default class Head extends Component {
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
               </li>
               <li>
                 <a href="#work">Work</a>
