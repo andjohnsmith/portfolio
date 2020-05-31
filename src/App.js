@@ -1,24 +1,24 @@
 import React from 'react';
-import Head from './components/head.jsx';
+import Navbar from './components/Navbar';
 import About from './components/about.jsx';
 import Projects from './components/projects.jsx';
 import Work from './components/work.jsx';
 import Contact from './components/contact.jsx';
-import Foot from './components/foot.jsx';
+import Footer from './components/Footer';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Head></Head>
+      <Navbar />
       <div className="container">
         <About></About>
         <Projects></Projects>
         <Work></Work>
         <Contact></Contact>
       </div>
-      <Foot></Foot>
+      <Footer />
     </div>
   );
 }

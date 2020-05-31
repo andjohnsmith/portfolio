@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export default class About extends Component {
   render() {
     return (
-      <section className="col-md-12 content" id="about">
-        <div className="col-lg-6 col-md-6 col-md-push-6 content-item content-item-1 background flexbox">
+      <section className="row content" id="about">
+        <div className="col-lg-6 col-xl-6 order-lg-2 content-item content-item-1 background flexbox">
           <h2 className="main-title text-center dark-blue-text">
             Hi, I'm Andrew Smith.
           </h2>
@@ -27,7 +27,7 @@ export default class About extends Component {
             rock on my guitar.
           </p>
         </div>
-        <div className="col-lg-6 col-md-6 col-md-pull-6 content-item">
+        <div className="col-lg-6 col-xl-6 order-lg-1 content-item">
           <img src="images/profile.jpg" alt="Profile" className="tm-image" />
         </div>
       </section>
