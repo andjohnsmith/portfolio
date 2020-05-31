@@ -73,6 +73,7 @@ p {
   font-size: 20px;
   font-weight: 300;
   padding: 10px 30px 0;
+  display: inline;
 }
 #fixed-header ul li a:hover,
 #fixed-header ul li .current {
@@ -372,9 +373,6 @@ footer a {
   .last {
     min-height: inherit !important;
   }
-  #fixed-header.scroll .navbar-brand {
-    padding: 12px 15px 0;
-  }
   .navbar-toggle {
     display: block;
     top: 15px;
@@ -408,7 +406,7 @@ footer a {
   }
   /* http://css3.bradshawenterprises.com/animating_height/ */
   #main-menu.show {
-    max-height: 250px;
+    max-height: 300px;
     overflow: auto;
   }
   .nav-item {
