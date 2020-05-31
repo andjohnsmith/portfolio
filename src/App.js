@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import About from './components/about.jsx';
-import Projects from './components/projects.jsx';
-import Work from './components/work.jsx';
-import Contact from './components/contact.jsx';
+import About from './components/About';
+import Projects from './components/Projects';
+import Work from './components/Work';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 import './App.css';
@@ -13,10 +13,10 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="container">
-        <About></About>
-        <Projects></Projects>
-        <Work></Work>
-        <Contact></Contact>
+        <About />
+        <Projects />
+        <Work />
+        <Contact />
       </div>
       <Footer />
     </div>

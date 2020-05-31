@@ -397,17 +397,17 @@ footer a {
   .nav-link {
     font-size: 1em;
   }
-  .main-menu ul {
+  #main-menu ul {
     width: 100%;
     background-color: #fff;
   }
-  .main-menu {
+  #main-menu {
     max-height: 0;
     transition: max-height 0.3s;
     overflow: hidden;
   }
   /* http://css3.bradshawenterprises.com/animating_height/ */
-  .main-menu.show {
+  #main-menu.show {
     max-height: 250px;
     overflow: auto;
   }
