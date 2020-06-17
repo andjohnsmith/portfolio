@@ -30,18 +30,9 @@
     <div id="root"></div>
 
     <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/singlePageNav.js"></script>
 
     <script>
-      // // Check scroll position and add/remove background to navbar
-      // function checkScrollPosition() {
-      //   if ($(window).scrollTop() > 50) {
-      //     $('.fixed-header').addClass('scroll');
-      //   } else {
-      //     $('.fixed-header').removeClass('scroll');
-      //   }
-      // }
-
       $(document).ready(function () {
         // Single page nav
         $('#fixed-header').singlePageNav({
@@ -50,10 +41,6 @@
           updateHash: true,
         });
       });
-
-      // $(window).on('scroll', function () {
-      //   checkScrollPosition();
-      // });
     </script>
   </body>
 </html>

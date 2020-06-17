@@ -19,21 +19,25 @@ const Projects = () => {
             </a>
           </h4>
           <p>
-            Hangman is a web app version of the classic word-guessing game that
-            provides users with a sizeable selection of customization features,
-            including difficulty, theme colors, and fonts.
+            Hangman is a web app allowing users to play the classic
+            word-guessing game in three difficulty levels. The app was built on
+            the MERN stack—MongoDB, Express.js, React.js, and Node.js—and
+            deployed on Heroku. You can create an account and play{' '}
+            <a href="http://hangman-ajs.herokuapp.com">here</a>.
           </p>
           <p>
-            The single-page web app was developed primarily with JavaScript, and
-            I relied on jQuery and AJAX to dynamically update the page and
-            asynchronously retrieve and send its data. I also supplemented my
-            HTML and CSS code with Bootstrap in order to efficiently keep the
-            interface user-friendly.
+            I coded the front-end with React, so I could easily separate the app
+            into components and quickly render changes made to the page. When
+            the amount of state to manage became too unwieldy to pass across
+            components, I implemented Redux so I could maintain a single global
+            app store.
           </p>
           <p>
-            The back-end includes a RESTful Node/Express API that I created to
-            store and serve each of the user’s games along with their custom
-            difficulties, colors, and fonts.
+            The back-end is comprised of a RESTful Node/Express API that serves
+            user accounts, games, and words. That data is stored with MongoDB,
+            and I used MongoDB's Atlas platform for easy management and
+            retrieval. Authentication is taken care of with the help of JSON Web
+            Tokens which are passed along in request headers.
           </p>
         </div>
         <div className="col-lg-6 col-xl-6 content-item">
