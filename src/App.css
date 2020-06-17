@@ -404,9 +404,8 @@ footer a {
     transition: max-height 0.3s;
     overflow: hidden;
   }
-  /* http://css3.bradshawenterprises.com/animating_height/ */
   #main-menu.show {
-    max-height: 300px;
+    max-height: 350px;
     overflow: auto;
   }
   .nav-item {

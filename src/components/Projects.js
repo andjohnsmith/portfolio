@@ -11,6 +11,39 @@ const Projects = () => {
           <h2 className="section-title">Some Things I've Built</h2>
           <h4 className="dark-blue-text">
             <a
+              href="https://github.com/andjohnsmith/hangman"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Hangman
+            </a>
+          </h4>
+          <p>
+            Hangman is a web app version of the classic word-guessing game that
+            provides users with a sizeable selection of customization features,
+            including difficulty, theme colors, and fonts.
+          </p>
+          <p>
+            The single-page web app was developed primarily with JavaScript, and
+            I relied on jQuery and AJAX to dynamically update the page and
+            asynchronously retrieve and send its data. I also supplemented my
+            HTML and CSS code with Bootstrap in order to efficiently keep the
+            interface user-friendly.
+          </p>
+          <p>
+            The back-end includes a RESTful Node/Express API that I created to
+            store and serve each of the user’s games along with their custom
+            difficulties, colors, and fonts.
+          </p>
+        </div>
+        <div className="col-lg-6 col-xl-6 content-item">
+          <img src={hangman} alt="Hangman" className="tm-image" />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-6 col-xl-6 order-lg-2 content-item background flexbox">
+          <h4 className="dark-blue-text">
+            <a
               href="https://github.com/andjohnsmith/trackd"
               target="_blank"
               rel="noopener noreferrer"
@@ -36,12 +69,12 @@ const Projects = () => {
             to quickly ensure the front-end looked good and was responsive.
           </p>
         </div>
-        <div className="col-lg-6 col-xl-6 content-item">
+        <div className="col-lg-6 col-xl-6 order-lg-1 content-item">
           <img src={trackd} alt="trackd" className="tm-image" />
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-6 col-xl-6 order-lg-2 content-item background flexbox">
+        <div className="col-lg-6 col-xl-6 content-item background flexbox">
           <h4 className="dark-blue-text">
             <a
               href="https://github.com/andjohnsmith/bandtrees"
@@ -73,41 +106,8 @@ const Projects = () => {
             between all the app's components.
           </p>
         </div>
-        <div className="col-lg-6 col-xl-6 order-lg-1 content-item">
-          <img src={bandtrees} alt="Band Trees" className="tm-image" />
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-6 col-xl-6 content-item background flexbox">
-          <h4 className="dark-blue-text">
-            <a
-              href="https://github.com/andjohnsmith/hangman"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Hangman
-            </a>
-          </h4>
-          <p>
-            Hangman is a web app version of the classic word-guessing game that
-            provides users with a sizeable selection of customization features,
-            including difficulty, theme colors, and fonts.
-          </p>
-          <p>
-            The single-page web app was developed primarily with JavaScript, and
-            I relied on jQuery and AJAX to dynamically update the page and
-            asynchronously retrieve and send its data. I also supplemented my
-            HTML and CSS code with Bootstrap in order to efficiently keep the
-            interface user-friendly.
-          </p>
-          <p>
-            The back-end includes a RESTful Node/Express API that I created to
-            store and serve each of the user’s games along with their custom
-            difficulties, colors, and fonts.
-          </p>
-        </div>
         <div className="col-lg-6 col-xl-6 content-item">
-          <img src={hangman} alt="Hangman" className="tm-image" />
+          <img src={bandtrees} alt="Band Trees" className="tm-image" />
         </div>
       </div>
     </section>

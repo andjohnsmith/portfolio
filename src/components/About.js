@@ -9,17 +9,17 @@ const About = () => {
           Hi, I'm Andrew Smith.
         </h2>
         <p>
-          I'm a software engineer based in Seattle, WA who loves building
-          convenient and streamlined applications that make life just a little
-          bit easier. I have a Bachelor of Science in computer science which I
-          obtained with honours at the University of Wisconsin–La Crosse after
-          just three years.
+          I'm a software developer based in Seattle, WA who loves building
+          convenient and streamlined applications that make life a little easier
+          or more exciting. I have a Bachelor of Science in computer science
+          which I obtained with honours at the University of Wisconsin–La Crosse
+          after just three years.
         </p>
         <p>
           Some of the technologies I've been working with recently include Java,
-          Spring, JavaScript, React, Node, Express, HTML, and CSS. I enjoy
-          working on both the back-end and front-end, and I'm currently looking
-          for an entry-level position!
+          JavaScript, React, Redux, Node, Express, MongoDB, HTML, and CSS. I
+          enjoy working on both the back-end and front-end, and I'm currently
+          looking for an entry-level position!
         </p>
         <p>
           My time outside of work is usually spent going on hikes with my
